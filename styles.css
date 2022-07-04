@@ -81,12 +81,27 @@ table {
 .calculator__header--time {
   display: flex;
   justify-content: flex-start;
+  margin-right: 220px;
 }
 
 .calculator__header--icons {
   display: flex;
-  justify-content: space-between;
-  
+  flex-direction: row;
+}
+
+.calculator__header--icon-phone {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.calculator__header--icon-wifi {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.calculator__header--icon-charge {
+  margin-left: 0px;
+  margin-right: 5px;
 }
 
 .calculator__display {

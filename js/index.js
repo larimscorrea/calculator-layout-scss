@@ -4,7 +4,7 @@ const $inputGetNumbers = document.querySelector('.calculator__display-input')
 const $result = document.querySelector('.calculator__display-result')
 const $buttonResult = document.querySelector('.calculator__buttons--result')
 
-const $buttonsRemove = document.querySelector('.calculator__buttons--remove')
+
 
 let calculate = ""
 
@@ -24,12 +24,4 @@ $buttonsOperators.forEach(function($button){
 
 $buttonResult.addEventListener('click', function(){
     $result.textContent = eval(calculate);
-})
-
-
-$buttonsRemove.removeEventListener('click', function(){
-    $button.removeEventListener = location.reload(){
-
-    }
-    
 })
