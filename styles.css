@@ -104,6 +104,13 @@ table {
   margin-right: 5px;
 }
 
+.calculator__callback {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 280px;
+  margin-bottom: 10px;
+}
+
 .calculator__display {
   width: 100%;
   display: flex;
